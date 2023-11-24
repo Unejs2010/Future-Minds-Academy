@@ -1,0 +1,37 @@
+ main {
+
+     background-image: url(./image/download\ \(3\).jpg);
+     background-blend-mode: color;
+     background-repeat: no-repeat;
+     background-size: 14cm;
+
+ }
+
+ .h1 {
+     background-color: rgb(238, 130, 238);
+     color: rgb(255, 255, 255);
+     font-family: 'Courier New', Courier, monospace;
+ }
+
+ .p {
+     background-color: rgba(0, 0, 255, 0.3);
+     width: 500px;
+
+ }
+
+ .p1 {
+     width: 500px;
+
+ }
+
+ .h2 {
+     background-color: violet;
+     color: black;
+     font-family: 'Courier New', Courier, monospace;
+ }
+
+ .h3 {
+     background-color: violet;
+     color: black;
+     font-family: 'Courier New', Courier, monospace;
+ }
