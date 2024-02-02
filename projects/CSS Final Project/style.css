@@ -22,6 +22,7 @@
 body {
     grid-template-columns: auto 1fr;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 /* Aside */
@@ -29,7 +30,7 @@ aside {
     background: url(./assets/images/sidebar-1.jpg);
     background-color: rgb(42, 38, 38, 0.8);
     background-blend-mode: color;
-   
+
    
 }
 
@@ -67,6 +68,7 @@ aside div:hover:not(.notHover) {
 /* Conteiner */
 .divBackround {
     background-color: rgb(219, 219, 219);
+    padding: 20px;
 }
 
 /* Header */
@@ -234,7 +236,7 @@ p{
 }
 
 .width {
-    width: 500px;
+    width: 100%;
 }
 
 .bgPink {
@@ -251,7 +253,7 @@ p{
 }
 
 .imgStyle {
-    width: 300px;
+    width: 100%;
     height: 200px;
     border-radius: 10px;
     position: relative;
@@ -291,7 +293,7 @@ p{
 
 .imgStylee:hover .iconUnderImg {
     visibility: visible;
-    
+
 }
 
 .width2 {
@@ -319,4 +321,10 @@ a {
 
 .mainH1{
     margin-left: 40px;
+}
+
+@media  (max-width:1000px){
+    aside{
+       display: none;
+    }
 }
