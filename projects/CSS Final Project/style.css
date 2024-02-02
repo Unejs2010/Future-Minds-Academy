@@ -1,0 +1,321 @@
+/* Global */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dGrid {
+    display: grid;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.jutifyContentCenter {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Body */
+body {
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+}
+
+/* Aside */
+aside {
+    background: url(./assets/images/sidebar-1.jpg);
+    background-color: rgb(42, 38, 38, 0.8);
+    background-blend-mode: color;
+   
+   
+}
+
+aside div:hover:not(.notHover) {
+    background-color: rgba(116, 116, 116, 0.8);
+}
+
+.assideStyle {
+    grid-template-columns: auto 1fr auto;
+    color: white;
+    gap: 15px;
+    padding: 15px 25px;
+    align-items: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.assideImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.tittle {
+    margin-right: 0px;
+}
+
+.assideDashboard {
+    background-color: red;
+    padding: 15px 25px;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+/* Conteiner */
+.divBackround {
+    background-color: rgb(219, 219, 219);
+}
+
+/* Header */
+header {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerIcon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.headerMore:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.input:focus{
+border-bottom: 2px solid red;
+}
+
+.div8{
+height: 20px;
+width: 26px;
+position: relative;
+}
+
+.div9{
+    position: absolute;
+    width: 20px;
+    height: 60px;
+
+}
+
+.label2{
+    visibility: hidden;
+    width: 200px;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    right: -15px;
+}
+
+.paragraph{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.label2 p:hover{
+background-color: red;
+color: white;
+}
+
+.div8:hover .label2{
+    visibility: visible;
+}
+
+
+.div2 {
+    gap: 14px;
+    display: flex;
+}
+
+.flags {
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.divMain {
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+}
+
+p{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.divMargin{
+    margin-top: 16px;
+}
+
+.div3 {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.div4 {
+    margin: 10px;
+    align-items: center;
+    display: flex;
+
+}
+
+.hr2 {
+    width: 230px;
+    color: lightgrey;
+
+}
+
+.divMainH2 {
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+}
+
+.divFlags {
+    margin-right: 30px;
+}
+
+.iconWorld {
+    background-color: green;
+    position: relative;
+    top: -30px;
+    padding: 20px;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+}
+
+.div5 {
+    gap: 15px;
+ 
+}
+
+.bgOrange {
+    background-color: orange;
+}
+
+.div6 {
+    justify-content: space-between;
+}
+
+.width {
+    width: 500px;
+}
+
+.bgPink {
+    background-color: palevioletred;
+}
+
+.bgBlue {
+    background-color: rgb(0, 191, 255);
+}
+
+.div7 {
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.imgStyle {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+    transition: ease-in-out;
+    margin-bottom: 0px;
+    transition: transform .5s ease-in ;
+
+}
+
+.imgStylee {
+    height: 180px;    
+}
+
+.imgStylee:hover .imgStyle {
+    z-index: 10;
+    transform: translateY(0px);
+
+}
+
+.imgStylee:hover .imgStyle {
+    position: relative;
+    transform: translateY(-45px);
+}
+
+.iconCard{
+    justify-content: center;
+    gap: 15px;
+}
+
+.iconUnderImg {
+    position: relative;
+    top: -65px;
+    visibility: hidden;
+    text-align: center;
+}
+
+.imgStylee:hover .iconUnderImg {
+    visibility: visible;
+}
+
+.width2 {
+    width: 300px;
+    margin-top: 60px;
+
+}
+
+.h2Margin {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+footer {
+    justify-content: space-between;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin: 0 20px;
+}
+
+.mainH1{
+    margin-left: 40px;
+}

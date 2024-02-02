@@ -1,0 +1,62 @@
+/* Global */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 20px;
+}
+
+.dFlex {
+
+    display: flex;
+}
+
+main img {
+    width: 100%;
+}
+
+.h1Large {
+    font-size: xx-large;
+}
+
+/* Main */
+main {
+    border: 3px solid black;
+    width: 50vh;
+
+}
+
+/* Styles */
+
+.style {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.style2 {
+    justify-content: space-between;
+}
+
+.style3 {
+    border: 3px solid black;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.style4 {
+    border: 3px solid black;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.position>h6 {
+    position: absolute;
+    color: white;
+    font-size: large;
+}

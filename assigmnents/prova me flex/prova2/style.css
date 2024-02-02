@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+button{
+    width: 200px;
+    background-color: red;
+    animation: h1 2s ease-in-out forwards;
+   
+}
+@keyframes h1 {
+    from{
+        background-color: red;
+    }
+
+    to{
+        background-color: yellow;
+    }
+}
+
+.label p{
+    visibility: hidden;
+    background-color: blue;
+    transition:visibility  0.3s ease-out;
+    transform-origin: 0 100%;
+   
+}
+
+button:hover+.label p,
+button:valid+.label p{
+    visibility: visible;
+}
+
+.div1{
+    position: absolute;
+}
+
+.div2{
+    position: relative;
+}

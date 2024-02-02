@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.aside {
+    background-color: rgb(43, 42, 75);
+    align-items: end;
+    flex-direction: column;
+    justify-content: center;
+    flex: 3;
+    height: 100vh;
+    padding: 0 40px;
+
+
+}
+
+
+
+.asideTitle {
+    margin: 0px;
+
+}
+
+.asideSpan1Style {
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.asideSpan2Style {
+    font-size: large;
+    color: grey;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.asideSpan3Style {
+    background-color: transparent;
+    padding: 5px;
+    color: rgb(170, 170, 170);
+    border: 2px solid rgb(170, 170, 170);
+    margin-top: 10px;
+
+}
+
+main {
+    padding: 50px;
+}
+
+.section1 {
+    margin: 0 10px;
+}
+
+.article1 {
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.article1Img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.card {
+    height: 100vh;
+}
+
+.textBlue {
+
+    color: blue;
+}
+
+
+
+.span1 {
+    background-color: green;
+    color: white;
+    padding: 5px;
+
+}
+
+.span2 {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+
+}
+
+.span3 {
+    background-color: red;
+    color: white;
+    padding: 5px;
+
+}
+
+.textLightGrey {
+    color: lightgrey;
+}
+
+.textSize {
+    font-size: xx-large;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.divP {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

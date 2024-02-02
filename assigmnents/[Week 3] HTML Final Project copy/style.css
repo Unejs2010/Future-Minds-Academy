@@ -1,0 +1,90 @@
+body {
+    background-image: url(./images/download\ \(3\).jpg);
+    width: 900px;
+    margin: 20px auto;
+    cursor: url(./images/3915740_arrow_direction_maps_navigation_pointer_icon\ \(1\).png) -500 -2, pointer;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.bgBlue {
+    background-color: blue;
+}
+
+.bgBlack {
+    background-color: black;
+}
+
+.bgBlue:hover {
+    background-color: rgb(14, 14, 129);
+}
+
+.bgRed {
+    background-color: red;
+}
+
+.bgRed:hover {
+    background-color: rgb(134, 4, 4);
+}
+
+.bgGreen {
+    background-color: green;
+}
+
+.bgGreen:hover {
+    background-color: rgb(5, 71, 5);
+}
+
+.displayInLine {
+    display: inline;
+}
+
+.textWhite {
+    color: white;
+}
+
+.padding5 {
+    padding: 5px;
+}
+
+.borderRadius30 {
+    border-radius: 30px;
+}
+
+.marginY40 {
+    margin: 40px 0;
+}
+
+.border5 {
+    border: 5px solid transparent;
+}
+
+.border5:hover {
+    border: 5px solid black;
+}
+
+.underLine {
+    text-decoration: underline;
+}
+
+hr {
+    height: 4px;
+    background-color: black;
+}
+
+.bgWhiteTextBlack {
+    background-color: white;
+    color: black;
+}
+
+.padding10 {
+    padding: 10px;
+}

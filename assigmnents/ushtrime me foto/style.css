@@ -1,0 +1,51 @@
+.img-box {
+    background: var(--img) center;
+    background-size: cover;
+    flex-basis: 100px;
+    position: relative;
+    transition: 400ms all ease;
+    filter: grayscale(100%) opacity(35%);
+
+}
+
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.img-box:nth-child(odd) {
+    transform: translateY(-20px);
+}
+
+.img-box:hover {
+    display: flex;
+    flex-basis: 200px;
+    filter: grayscale(0%) opacity(100%);
+
+}
+
+.title {
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+
+}
+
+.imgSize {
+    width: 180px;
+    height: 276px;
+}

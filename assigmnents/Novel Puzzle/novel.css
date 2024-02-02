@@ -1,0 +1,34 @@
+.h1 {
+    background-color: rgb(238, 130, 238);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New';
+}
+
+.p {
+    background-color: rgba(0, 0, 255, 0.3);
+    width: 500px;
+    font-family: 'Gill Sans';
+
+}
+
+
+.h2 {
+    background-color: violet;
+    color: black;
+    font-family: 'Courier New';
+}
+
+.h3 {
+    background-color: violet;
+    color: black;
+    font-family: 'Courier New';
+}
+
+.a {
+    font-size: 2cm;
+}
+
+.d {
+    text-transform: uppercase;
+    font-weight: 1000;
+}

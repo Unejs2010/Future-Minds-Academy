@@ -1,0 +1,63 @@
+/* Global */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a,
+li {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.dFlex {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    background-color: rgb(0, 38, 255);
+    padding: 20px;
+}
+
+.navBar ul {
+    align-items: center;
+    gap: 2rem;
+}
+
+.style {
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card {
+    background-color: green;
+    width: 300px;
+    height: 400px;
+
+}
+
+main {
+    justify-content: space-evenly;
+    background-color: rgb(212, 119, 119);
+    flex: 10;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 2;
+    background-color: rgb(94, 88, 88);
+
+}
+
+.ulAside {
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.container {
+    height: 100vh;
+}

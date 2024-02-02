@@ -1,0 +1,148 @@
+body {
+    margin: 0px;
+}
+
+.dGrid {
+    display: grid;
+}
+
+.aside {
+    background-color: rgb(43, 42, 75);
+    align-items: center;
+    height: 100vh;
+
+    padding: 0 40px;
+    justify-content: center;
+
+
+
+}
+
+.card2 {
+    grid-template-rows: 1fr;
+}
+
+
+
+.asideTitle {
+    margin: 0px;
+    grid-template-rows: 1fr;
+
+}
+
+.asideSpan1Style {
+    font-size: xx-large;
+    color: white;
+    text-align: end;
+    align-items: end;
+
+}
+
+.asideSpan2Style {
+    font-size: large;
+    color: grey;
+    grid-template-rows: 1fr;
+    align-items: end;
+    text-align: end;
+
+
+}
+
+.asideSpan3Style {
+    background-color: transparent;
+    padding: 5px;
+    color: rgb(170, 170, 170);
+    border: 2px solid rgb(170, 170, 170);
+    margin-top: 10px;
+
+    align-items: end;
+
+}
+
+main {
+    padding: 50px;
+}
+
+.section1 {
+    margin: 0 10px;
+}
+
+.article1 {
+
+    align-items: center;
+    grid-template-columns: 1fr auto;
+
+
+}
+
+.article1Img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.card {
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+
+}
+
+.textBlue {
+
+    color: blue;
+}
+
+
+
+.span1 {
+    background-color: green;
+    color: white;
+    padding: 5px;
+
+}
+
+.span2 {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+
+}
+
+.span3 {
+    background-color: red;
+    color: white;
+    padding: 5px;
+
+}
+
+.textLightGrey {
+    color: lightgrey;
+}
+
+.textSize {
+    font-size: xx-large;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.divP {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+@media (max-width: 1000px) {
+.card{
+    grid-template-rows: auto 1fr;
+    grid-template-columns: none;
+}
+
+.aside{
+    height: 300px; 
+}
+.card2{
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 300px;
+}
+}

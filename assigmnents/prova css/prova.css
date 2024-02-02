@@ -1,0 +1,18 @@
+h1 {
+    color: aqua;
+    background-color: brown;
+}
+
+p {
+    color: black;
+    background-color: aqua;
+}
+
+h2 {
+    color: blue;
+    background-color: brown;
+}
+
+.a {
+    font-size: 10rem
+}

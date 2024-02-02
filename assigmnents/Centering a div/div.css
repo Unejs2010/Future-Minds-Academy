@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223, 140, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.card {
+    background-color: white;
+    border: 3px solid  black;
+ 
+
+}

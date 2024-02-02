@@ -1,0 +1,102 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    cursor: url(./images/3915740_arrow_direction_maps_navigation_pointer_icon\ \(1\).png)-500 -2, pointer;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.gap2 {
+    gap: 2;
+}
+
+header {
+    justify-content: space-between;
+}
+
+.bgRed {
+    background-color: red;
+
+}
+
+.bgPink {
+    background-color: pink;
+}
+
+.bgpalevioletred {
+    background-color: palevioletred;
+}
+
+.textBlack {
+    color: black;
+}
+
+.margin5 {
+    margin: 5px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.li {
+
+    background-color: red;
+    border-radius: 15px;
+    border: 4px solid black;
+}
+
+
+img {
+    width: 200px;
+}
+
+aside {
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+
+}
+
+.li1 {
+    gap: 2;
+}
+
+
+
+main {
+    flex: 10;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.section {
+    border-radius: 15px;
+    border: 4px solid black;
+    gap: 3;
+}
+
+.bgblueviolet {
+    background-color: rgb(161, 77, 240);
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}

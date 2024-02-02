@@ -1,0 +1,72 @@
+body {
+    background-image: url(./images/download\ \(3\).jpg);
+    width: 900px;
+    text-align: center;
+    margin: 20px auto;
+    cursor:
+        url(./images/3915740_arrow_direction_maps_navigation_pointer_icon\ \(1\).png) 2 2, pointer;
+}
+
+a,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.link {
+    background-color: aqua;
+    width: 200px;
+    display: inline;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+header {
+    width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.a2 {
+
+    border-radius: 15px;
+    background-color: lightblue;
+}
+
+.b4 {
+    display: block;
+}
+
+.a2:hover {
+    border: 15px solid black;
+    background-color: blue;
+}
+
+.li {
+    border: 15px solid black;
+    border-color: red;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+
+.b2 {
+
+    border-radius: 15px;
+    background-color: pink;
+}
+
+.b2:hover {
+    border: 15px solid black;
+    background-color: darkmagenta;
+}
+
+.b3 {
+    border: 20px solid black;
+    background-color: black;
+    color: white;
+}
+
+hr {
+    height: 3px;
+    background: black;
+}

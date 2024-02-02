@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+figure img {
+    width: 200px;
+    height: 200px;
+    transition-property:transform, filter;
+    transition-duration:0.4s, 0.1s;
+    transition-timing-function:ease-in-out;
+    filter: blur(3px);
+  
+}
+
+figure img:hover {
+    width: 200px;
+    height: 200px;
+    filter: blur(0px);
+    transform: rotate(720deg)
+}

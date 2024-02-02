@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: grid;
+    background-color: red;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+.ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    grid-template-rows: 100px 200px;
+}
+
+.section1 {
+    background-color: rgb(99, 99, 99);
+}
+
+.section2 {
+    background-color: blue;
+    display: grid;
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row: 1/4;
+}
