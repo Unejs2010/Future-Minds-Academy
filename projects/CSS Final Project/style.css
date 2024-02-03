@@ -31,7 +31,7 @@ aside {
     background-color: rgb(42, 38, 38, 0.8);
     background-blend-mode: color;
 
-   
+
 }
 
 aside div:hover:not(.notHover) {
@@ -85,6 +85,10 @@ header {
     padding: 10px;
 }
 
+.menu {
+    display: none;
+}
+
 .headerMore:hover {
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
@@ -102,24 +106,23 @@ header {
     border-bottom: 2px solid black;
 }
 
-.input:focus{
-border-bottom: 2px solid red;
+.input:focus {
+    border-bottom: 2px solid red;
 }
 
-.div8{
-height: 20px;
-width: 26px;
-position: relative;
+.div8 {
+    height: 20px;
+    width: 26px;
+    position: relative;
 }
 
-.div9{
+.div9 {
     position: absolute;
     width: 20px;
     height: 60px;
-
 }
 
-.label2{
+.label2 {
     visibility: hidden;
     width: 200px;
     position: absolute;
@@ -129,7 +132,7 @@ position: relative;
     right: -15px;
 }
 
-.paragraph{
+.paragraph {
     background-color: red;
     color: white;
     padding: 5px;
@@ -142,19 +145,18 @@ position: relative;
     display: flex;
     justify-content: center;
 }
-.label2 p:hover{
-background-color: red;
-color: white;
+
+.label2 p:hover {
+    background-color: red;
+    color: white;
 }
 
-.div8:hover .label2{
+.div8:hover .label2 {
     visibility: visible;
 }
 
-
 .div2 {
     gap: 14px;
-    display: flex;
 }
 
 .flags {
@@ -165,6 +167,15 @@ color: white;
     display: flex;
 }
 
+.divWidth {
+    width: 100%;
+}
+
+.mapMain {
+    height: 100%;
+    width: 100%;
+}
+
 .divMain {
     background-color: white;
     border-radius: 15px;
@@ -172,19 +183,18 @@ color: white;
     padding: 20px;
 }
 
-p{
+p {
     align-items: center;
     text-align: center;
     display: flex;
 }
 
-.divMargin{
+.divMargin {
     margin-top: 16px;
 }
 
 .div3 {
     gap: 50px;
-    display: flex;
     align-items: center;
     text-align: center;
 }
@@ -192,20 +202,16 @@ p{
 .div4 {
     margin: 10px;
     align-items: center;
-    display: flex;
-
 }
 
 .hr2 {
-    width: 230px;
+    width: 100%;
     color: lightgrey;
-
 }
 
 .divMainH2 {
     margin-bottom: 30px;
     margin-left: 20px;
-
 }
 
 .divFlags {
@@ -219,12 +225,10 @@ p{
     padding: 20px;
     box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    
 }
 
 .div5 {
     gap: 15px;
- 
 }
 
 .bgOrange {
@@ -260,18 +264,16 @@ p{
     top: -30px;
     transition: ease-in-out;
     margin-bottom: 0px;
-    transition: transform .5s ease-in ;
-
+    transition: transform .5s ease-in;
 }
 
 .imgStylee {
-    height: 180px;    
+    height: 180px;
 }
 
 .imgStylee:hover .imgStyle {
     z-index: 10;
     transform: translateY(0px);
-
 }
 
 .imgStylee:hover .imgStyle {
@@ -279,7 +281,7 @@ p{
     transform: translateY(-45px);
 }
 
-.iconCard{
+.iconCard {
     justify-content: center;
     gap: 15px;
 }
@@ -293,13 +295,11 @@ p{
 
 .imgStylee:hover .iconUnderImg {
     visibility: visible;
-
 }
 
 .width2 {
-    width: 300px;
+    width: 100%;
     margin-top: 60px;
-
 }
 
 .h2Margin {
@@ -319,12 +319,121 @@ a {
     margin: 0 20px;
 }
 
-.mainH1{
+.mainH1 {
     margin-left: 40px;
 }
 
-@media  (max-width:1000px){
-    aside{
-       display: none;
+.navbar {
+    justify-content: space-between;
+}
+
+@media (max-width:1000px) {
+
+    aside,
+    .figure,
+    input,
+    .headerIcon,
+    .div1Img,
+    .div8,
+    .avatar2,
+    .Dashboard2 {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .divHart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div4 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .divEnd {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .width2 {
+        width: 90%;
+    }
+
+    .imgStylee {
+        height: 600px;
+    }
+
+    .imgStyle {
+        height: 580px;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    aside,
+    .figure,
+    input,
+    .headerIcon,
+    .div1Img,
+    .div8,
+    .avatar2,
+    .Dashboard2 {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .divHart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div4 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .divEnd {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divSEperete {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .imgStylee {
+        height: 350px;
+        width: 300px;
+    }
+
+    .imgStyle {
+        height: 350px;
+        width: 100%;
+    }
+
+    .divMain {
+        width: 300px;
+    }
+
+    footer {
+        padding: 0px;
+    }
+
+    a {
+        margin: 0px 4px;
+    }
+
+    p {
+        text-align: start;
     }
 }
