@@ -22,7 +22,7 @@
 body {
     grid-template-columns: auto 1fr;
     height: 100vh;
-    
+
 }
 
 /* Aside */
@@ -41,7 +41,7 @@ aside div:hover:not(.notHover) {
     grid-template-columns: auto 1fr auto;
     color: white;
     gap: 15px;
-    padding: 15px 25px;
+    padding: 10px 15px;
     align-items: center;
     margin-top: 6px;
     margin-bottom: 6px;
@@ -59,9 +59,9 @@ aside div:hover:not(.notHover) {
 
 .assideDashboard {
     background-color: red;
-    padding: 15px 25px;
+    padding: 15px 16px;
     border-radius: 7px;
-    margin: 15px 0;
+    margin: 15px 0px;
 }
 
 /* Conteiner */
