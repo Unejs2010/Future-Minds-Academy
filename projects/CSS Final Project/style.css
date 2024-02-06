@@ -22,7 +22,7 @@
 body {
     grid-template-columns: auto 1fr;
     height: 100vh;
-    overflow-x: hidden;
+    
 }
 
 /* Aside */
@@ -30,8 +30,7 @@ aside {
     background: url(./assets/images/sidebar-1.jpg);
     background-color: rgb(42, 38, 38, 0.8);
     background-blend-mode: color;
-
-
+    overflow-y: hidden;
 }
 
 aside div:hover:not(.notHover) {
@@ -374,7 +373,6 @@ a {
 }
 
 @media (max-width:450px) {
-
     aside,
     .figure,
     input,
