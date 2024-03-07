@@ -17,11 +17,12 @@
 
         alert('write points 1-100')
 
-        let points = parseFloat(prompt('write the points:'))
+        let points = parseFloat(prompt('write the points:'));
 
 
-        if(points <= 0){
-            alert("There was an error in your input")
+        if(points <= 0 || String){
+          
+            throw new Error ('There was an error in your input')
         }
 
         
@@ -47,7 +48,7 @@
 
     
         else if(points > 100){
-            alert("There was an error in your input")
+            throw new Error ('There was an error in your input')
         }
     </script>
 </body>
