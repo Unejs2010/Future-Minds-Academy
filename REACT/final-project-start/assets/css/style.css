@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+.dGrid {
+    display: grid;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.mainContainer {
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+}
+
+aside {
+    background: url(../images/9c.jpg);
+    background-color: rgb(42, 38, 38, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow-y: scroll;
+    overflow: hidden;
+    padding: 15px;
+}
+
+aside div:hover:not(.notHover) {
+    background-color: rgba(116, 116, 116, 0.6);
+}
+
+.assideStyle {
+    grid-template-columns: auto 1fr auto;
+    color: white;
+    gap: 15px;
+    padding: 10px 15px;
+    align-items: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.assideImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.tittle {
+    margin-right: 0px;
+}
+
+.assideDashboard {
+    background-color: black;
+    padding: 15px 16px;
+    border-radius: 7px;
+    margin: 15px 0px;
+}
+
+main {
+
+
+    display: grid;
+    grid-template-rows: 50px 200px 200px 1fr;
+    grid-template-columns: 100px 1fr 1fr 100px 100px;
+
+}
+
+.divEnd {
+    background-color: lightgray;
+}
+
+button {
+    color: white;
+}
+
+.marginLeft20px {
+    margin-left: 20px;
+}
+
+.divMain {
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+    margin: 30px 0px;
+    padding: 20px;
+    grid-row: 2/4;
+    grid-column: 2/5;
+}
+
+.bgBlue {
+    display: grid;
+    background-color: blue;
+    grid-row: 1/3;
+    grid-column: 1/6;
+}
+
+.inputDiv {
+    gap: 6rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
+
+}
+
+input {
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.divContainer {
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+    margin: 30px 0px;
+    padding: 20px;
+    grid-row: 4/5;
+    grid-column: 2/5;
+}
+
+.tittleSpan {
+    font-size: x-large;
+}
+
+li {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+
+}
+
+.divLabelImportant{
+ flex-direction: column;
+}

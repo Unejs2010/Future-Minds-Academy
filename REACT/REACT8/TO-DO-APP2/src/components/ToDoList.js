@@ -5,7 +5,7 @@ const ToDoList = ({ tasks, toggleCompleted, updateTask, filterTasks }) => {
   return (
     <div>
       <div>
-        <button onClick={()  => filterTasks('all')}>All</button>
+      <button onClick={()  => filterTasks('all')}>All</button>
         <button onClick={()  => filterTasks('yesterday')}>Yesterday</button>
         <button onClick={()  => filterTasks('today')}>Today</button>
         <button onClick={()  => filterTasks('tomorrow')}>Tomorrow</button>
