@@ -131,6 +131,9 @@ main {
     margin-top: 5px;
 }
 
+
+
+
 @media (max-width: 1000px) {
 .card{
     grid-template-rows: auto 1fr;

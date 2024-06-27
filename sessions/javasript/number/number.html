@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// 1.
+        // let counter = 1;
+        // while(counter <= 100){
+        //     console.log(counter);
+        //     counter++;
+        // }
+
+
+// 2.
+        // let number = parseInt(prompt('write a number'));
+        // let counter = 1;
+        // while(counter <= number){
+        //     console.log(counter);
+        //      counter++;
+        // }
+
+        // 3.
+        // let counter = 0;
+        //  while(counter <= 100){
+        //      console.log(counter);
+        //      counter +=2;
+        //  }
+
+
+        // 4.
+        // let counter = 1;
+        // let sum = 0;
+        // let  countere;
+        //  while(counter <= 100){
+        //      sum += counter;
+        //      counter++;
+        //  }
+
+        //  console.log(sum);
+
+
+// 5.
+        // let number = parseInt(prompt('write number'))
+        // let sum = 0;
+        // while(number !== 0){
+        //     sum += number;
+        //    number = parseInt(prompt('write number'))
+
+        // }
+        // alert(sum);
+
+
+
+let number;
+let counter = 0;
+        let random = Math.floor(Math.random () * 6)+1;
+        do{
+             number = parseInt(prompt('write a number'));
+             counter++;
+        }
+
+        while(random !== number)
+
+        
+
+        if(counter == 1 ){
+            alert('you got it in one try')
+        }
+
+        else{
+            alert(`the correct number was ${random} and you guessed it in ${counter} tries`);
+        }
+            
+       
+    </script>
+</body>
+</html>

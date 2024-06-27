@@ -1,0 +1,14 @@
+.hooksbody{
+    padding: 20px;
+    background-color: rgb(85, 85, 85);
+    border-radius: 10px;
+    color: white;
+}
+
+input{
+    color: white;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 3px;
+}

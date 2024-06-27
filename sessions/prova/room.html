@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>room</title>
+    <style>
+        *{
+            font-size: 20px;
+            
+        }
+
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+           align-items: center;
+           text-align: center;
+background-color: antiquewhite;
+        }
+
+        .div_body{
+           
+            width: 600px;
+            height: 600px;
+            background-color: rgb(229, 121, 229);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: 2px solid lightslategray;
+        padding: 20px;
+        }
+        .canvas{
+            
+            margin-left: 30px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        }
+
+        .backgroundColorGreen{
+            background-color: green;
+        }
+
+        .backgroundColorRed{
+            background-color: red;
+        }
+
+        .canvas2{
+            background-color: blueviolet;
+           margin-left: 150px;
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        }
+
+        .canvas0{
+            display: flex;
+        }
+
+        .button_style{
+            background-color: lightblue;
+            padding: 5px;
+            font-size: x-large;
+            border: 2px solid lightblue;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .button_style:hover{
+            background-color: rgb(92, 131, 144);
+            border: 2px solid rgb(92, 131, 144);
+        }
+
+        .button_repeat{
+            margin-top: 30px;
+        }
+
+        .font{
+    font-family:'Courier New', Courier, monospace;
+}
+    </style>
+</head>
+<body>
+    <div class="div_body">
+        <div class="div1">
+            <label class="font" for="">Room width</label>
+            <input type="number" id="roomW">
+        </div>
+      
+    <br>
+    <div class="div2">
+        <label class="font" for="">Room height</label>
+        <input type="number" id="roomH">
+    </div>
+       
+        <br>
+        <br>
+        <button class="button_style drawBtn font" >Draw room</button>
+    
+    <br><br><br><br>
+    
+    <div class="canvas0">
+    
+        <div class="canvas2 font">TRY TO DO IT THE SAME!</div>
+        
+        <div class="canvas font">
+    
+    
+    
+        </div>
+    
+    
+    </div>
+   
+    
+
+    <button class="button_repeat button_style font">Repeat</button>
+</div>
+
+   
+
+
+
+
+
+    <script>
+
+
+
+
+
+
+const roomW = document.querySelector("#roomW");
+const roomH = document.querySelector("#roomH");
+const canvas = document.querySelector(".canvas");
+const canvas2 = document.querySelector(".canvas2");
+const drawBtn = document.querySelector(".drawBtn");
+const div1 = document.querySelector(".div1");
+const div2 = document.querySelector(".div2");
+const button_repeat = document.querySelector(".button_repeat");
+
+const randomH = Math.floor(Math.random () * 50)+100;
+const randomW = Math.floor(Math.random () * 50)+100;
+
+console.log(randomW);
+console.log(randomH);
+alert("Try to guess the width and height from the number 100-150")
+
+canvas2.style.width = randomW + "px";
+   canvas2.style.height = randomH + "px";
+
+
+
+drawBtn.addEventListener("click", function(){
+
+   canvas.style.width = roomW.value + "px";
+   canvas.style.height = roomH.value + "px";
+   
+   if(randomH === parseInt(roomH.value) && randomW === parseInt(roomW.value)){
+canvas.innerHTML = ("You did it!");
+canvas.style.backgroundColor = 'green';
+}else{
+    canvas.innerHTML = ("You didn't do  it!");
+    canvas.style.backgroundColor = 'red';
+}
+});
+
+roomW.addEventListener('input', function() {
+   
+    const inputValue = parseInt(roomW.value);
+
+
+if(inputValue == randomW ){
+    
+    div1.style.backgroundColor = 'green';
+}else {
+        
+        div1.style.backgroundColor = 'red';
+    }
+
+
+});
+
+roomH.addEventListener('input', function() {
+   
+   const inputValuee = parseInt(roomH.value);
+
+
+if(inputValuee == randomH ){
+   
+   div2.style.backgroundColor = 'green';
+}else {
+      
+       div2.style.backgroundColor = 'red';
+   }
+
+
+});
+
+button_repeat.addEventListener("click", function () {
+  window.location.reload();
+});
+
+
+    </script>
+</body>
+</html>

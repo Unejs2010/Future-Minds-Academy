@@ -1,0 +1,120 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+
+
+.start {
+    background: white;
+    color: blue;
+    padding: 15px 30px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: xx-large;
+}
+
+.style2_button {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: x-large;
+    margin-left: 10px;
+
+}
+
+
+.style2_button:hover{
+    background-color: darkblue;
+    border: 2px solid darkblue;
+}
+
+.style1_button{
+    background: white;
+    color: blue;
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: x-large;
+}
+
+.style1_button:hover{
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+}
+
+.style_page {
+    background-color: white;
+    width: 500px;
+    height: 570px;
+    display: none;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
+.div2{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.hr {
+    width: 500px;
+  
+}
+
+.search_box{
+    border: transparent  ;
+    border-bottom:1px solid black ;
+    outline: none;
+    width: 300px;
+    
+   
+}
+
+.search_box:focus{
+    border: transparent  ;
+    border-bottom:1px solid blue ;
+}
+
+.thnx_h1{
+    display: none;
+}
+
+.padding{
+    padding:0px 10px ;
+}
+
+.font{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.closePage_button{
+    display: none;
+    text-align: center;
+}
+
+.div4{
+    text-align: center;
+}

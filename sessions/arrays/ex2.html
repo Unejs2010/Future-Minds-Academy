@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my movies</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let allMovies = [
+           {
+              genre: "Actions", 
+              movies: [
+                  {
+                    title: "Spiderma",
+                    thumb: "spiderman.png",
+                    desc: "Some description of the movie",
+                    trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/t06RUxPbp_c?si=YyZCof8R_DP_10qq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+                    actors: "Hasani, Hyseni, Gjygumi",
+                    length: 104
+                  },
+                  {
+                    
+                    title: "Johnwick 3",
+                    thumb: "johnwick3.png",
+                    desc: "Some description of the movie",
+                    trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/M7XM597XO94?si=SJcLG2_yJMBHv1Ju" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+                    actors: "Hasani, Hyseni, Gjygumi",
+                    length: 90
+                  
+                  }
+              ]
+
+
+           }, 
+           {
+
+           }
+        ]
+
+        console.log("Gerne: " + allMovies[0].genre);
+        console.log("Title: " + allMovies[0].movies[0].title);
+
+        
+    </script>
+</body>
+</html>

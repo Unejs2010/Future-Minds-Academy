@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.3rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    color: #434A57;
+    margin-top: 15px;
+}
+
+.navbar-menu a { 
+    text-decoration: none;
+    color: black;
+ }
+
+h1{
+    margin: 20px 0px;
+}
+
+.active {
+    text-decoration: underline rgb(67, 60, 52)!important;
+    background-color: rgb(252, 236, 217);
+    padding: 5px;
+    border-radius: 4px;
+    font-size: large;
+
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(184, 218, 207);
+    border-radius: 5px;
+}
